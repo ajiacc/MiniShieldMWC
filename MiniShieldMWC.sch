@@ -2150,10 +2150,12 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pad name="A1" x="2.54" y="-7.62" drill="0.8" diameter="1.5" rot="R90"/>
 <pad name="A2" x="0" y="-7.62" drill="0.8" diameter="1.5" rot="R90"/>
 <pad name="A3" x="-2.54" y="-7.62" drill="0.8" diameter="1.5" rot="R90"/>
-<wire x1="16.51" y1="8.89" x2="-3.81" y2="8.89" width="0.127" layer="22"/>
-<wire x1="-3.81" y1="8.89" x2="-3.81" y2="-5.715" width="0.127" layer="22"/>
-<wire x1="-3.81" y1="-5.715" x2="-6.35" y2="-5.715" width="0.127" layer="22"/>
-<wire x1="-6.35" y1="-5.715" x2="-6.35" y2="-8.89" width="0.127" layer="22"/>
+<wire x1="16.51" y1="8.89" x2="-6.35" y2="8.89" width="0.127" layer="22"/>
+<wire x1="-6.35" y1="8.89" x2="-6.35" y2="6.35" width="0.127" layer="22"/>
+<wire x1="-6.35" y1="6.35" x2="-3.81" y2="6.35" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="6.35" x2="-3.81" y2="-6.35" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="-6.35" x2="-6.35" y2="-6.35" width="0.127" layer="22"/>
+<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-8.89" width="0.127" layer="22"/>
 <wire x1="-6.35" y1="-8.89" x2="16.51" y2="-8.89" width="0.127" layer="22"/>
 <text x="-2.159" y="6.731" size="0.8128" layer="22" font="vector" rot="MR270">D2</text>
 <text x="12.319" y="-6.731" size="0.8128" layer="22" font="vector" rot="MR90">D11</text>
@@ -2164,9 +2166,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <text x="2.159" y="-6.731" size="0.8128" layer="22" font="vector" rot="MR90">A1</text>
 <text x="-0.381" y="-6.731" size="0.8128" layer="22" font="vector" rot="MR90">A2</text>
 <text x="-2.921" y="-6.731" size="0.8128" layer="22" font="vector" rot="MR90">A3</text>
-<pad name="GND2" x="15.24" y="0" drill="0.8" diameter="1.5" rot="R90"/>
+<pad name="GND2" x="-5.08" y="7.62" drill="0.8" diameter="1.5" rot="R90"/>
 <wire x1="16.51" y1="8.89" x2="16.51" y2="-8.89" width="0.127" layer="22"/>
-<text x="13.589" y="-1.016" size="0.8128" layer="22" font="vector" rot="MR90">GND</text>
+<text x="-5.461" y="4.064" size="0.8128" layer="22" font="vector" rot="MR90">GND</text>
 <pad name="VCC" x="-5.08" y="-7.62" drill="0.8" diameter="1.5" rot="R90"/>
 <text x="-5.461" y="-6.731" size="0.8128" layer="22" font="vector" rot="MR90">VCC</text>
 </package>
@@ -7154,7 +7156,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="81.28" y1="116.84" x2="81.28" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="P$1" class="0">
+<net name="N$19" class="0">
 <segment>
 <pinref part="U$3" gate="G$1" pin="VIN"/>
 <wire x1="93.98" y1="129.54" x2="91.44" y2="129.54" width="0.1524" layer="91"/>
